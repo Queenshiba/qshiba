@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background: tan; */
+}
+
+.navbar {
+    background-color: white;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    width: auto;
+    max-height: 8vh;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.landing {
+    height: 90vh;
+    width: 100%;
+    /* background-image: url(/img/steve-johnson-v5-79lJQfiY-unsplash.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat; */
+    background: chocolate;
+    align-items: center;
+}
+.landing-main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
