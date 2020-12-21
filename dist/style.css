@@ -25,11 +25,12 @@
 .landing {
     height: 90vh;
     width: 100%;
-    /* background-image: url(/img/steve-johnson-v5-79lJQfiY-unsplash.jpg);
+    background-image: url(/img/img1.png);
     background-size: auto 100%;
-    background-repeat: no-repeat; */
-    background: chocolate;
+    background-repeat: no-repeat;
+    /* background: chocolate; */
     align-items: center;
+    background-position: right;
 }
 .landing-main {
     height: 100%;
