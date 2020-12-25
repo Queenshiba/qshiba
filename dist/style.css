@@ -54,43 +54,64 @@
     justify-content: center;
 }
 
-.main-left > h1{
+.main-left>h1 {
     margin-left: 20%;
 }
+
 .contact-btn {
     margin-left: 20%;
 }
+
 .service {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
 }
+
 .service-top, .service-bottom {
     display: flex;
     flex-direction: row;
     padding: 2% 10%;
 }
-.service img{
+
+.service img {
     max-height: 80px;
     width: 80px;
 }
+
 .service-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2%;
 }
+
 .price-process {
-    max-height: 400px;
-width: 100%;
-background-color: darkblue;
+    max-height: 500px;
+    width: 100%;
+    background: gray;
 }
+
 .price-process-section {
     max-height: 200px;
     width: 50%;
-    background-color: cyan;
+    display: flex;
+    flex-direction: column;
 }
+
 .price-process-section img {
-    /* max-height: 80px; */
+    max-height: 80px;
     width: 80px;
+}
+.price-process-wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin: 5%;
+    max-height: fit-content;
+    align-items: center;
+    
+}
+#process-section {
+    margin-left: 50%;
 }
