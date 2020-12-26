@@ -82,14 +82,14 @@
 .service-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 2%;
 }
 
 .price-process {
     max-height: 500px;
     width: 100%;
-    background: gray;
+    /* background: gray; */
 }
 
 .price-process-section {
@@ -110,8 +110,28 @@
     margin: 5%;
     max-height: fit-content;
     align-items: center;
-    
+    justify-content: center;
+}
+#price-section {
+    margin-left: -30%;
 }
 #process-section {
-    margin-left: 50%;
+    margin-left: 30%;
+}
+
+.project-examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-examples img {
+    max-height: 80px;
+    width: 80px;
+}
+.project-examples-warp {
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+    background-color: lightgray;
+    align-items: center;
 }
