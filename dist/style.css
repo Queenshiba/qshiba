@@ -25,7 +25,7 @@
 }
 
 .landing {
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     background-image: url(/img/lp-coralpink.png);
     background-size: auto 100%;
@@ -63,11 +63,26 @@
 }
 
 .service {
-    background-color: lightgray;
+    background-color: #f79d65;
     display: flex;
     flex-direction: column;
+    color: white;
+}
+.section-titles {
+    margin: 5% 0 0 5%;
 }
 
+.title-japanese {
+    display: flex;
+    flex-direction: row;
+}
+.title-japanese > h2 {
+    padding-left: 1em;
+}
+.titile-shape {
+    background-color: #f7b267;
+    width: 1em;
+}
 .service-top, .service-bottom {
     display: flex;
     flex-direction: row;
@@ -82,7 +97,8 @@
 .service-section {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
     padding: 2%;
 }
 
@@ -134,4 +150,17 @@
     line-height: 80px;
     background-color: lightgray;
     align-items: center;
+}
+
+footer {
+    max-height: 300px;
+}
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.sitemap a {
+    display: flex;
+    justify-content: space-around;
 }
