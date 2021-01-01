@@ -155,12 +155,12 @@
 footer {
     max-height: 300px;
 }
-.sitemap {
+.siteMap {
     display: flex;
     flex-direction: column;
     padding: 2%;
 }
-.sitemap a {
+.siteMap a {
     display: flex;
     justify-content: space-around;
 }
