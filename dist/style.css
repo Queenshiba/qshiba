@@ -154,6 +154,7 @@
 
 footer {
     max-height: 300px;
+    background-color: #f25c54;
 }
 .siteMap {
     display: flex;
@@ -164,3 +165,9 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+/* f7b267
+f79d65
+f4845f
+f4845f
+f25c54 */
